@@ -39,6 +39,7 @@ public class QuizDemo {
         }
         catch (NullPointerException e){
             e.toString();
+            System.out.println(e);
         }
 
         return upperCase;
